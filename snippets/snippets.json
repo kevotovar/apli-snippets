@@ -23,5 +23,41 @@
       "${6:class_description}",
       "\"\"\""
     ]
+  },
+  "Create new model": {
+    "prefix": "new_model",
+    "body": [
+      "\"\"\"${1:ModelName} model.\"\"\"",
+      "",
+      "# Django",
+      "from django.db import models",
+      "",
+      "# Shared",
+      "${2:shared_path}.models import BaseModel",
+      "",
+      "",
+      "class ${1:ModelName}(BaseModel):"
+    ]
+  },
+  "Create new entity": {
+    "prefix": "new_entity",
+    "body": [
+      "\"\"\"${1:EntityName} entity module.",
+      "",
+      "${2:Entity Description}",
+      "\"\"\"",
+      "",
+      "# Standard library",
+      "${3:standard_library_imports}",
+      "",
+      "# Shared",
+      "${4:shared_path}.entities import BaseEntity",
+      "",
+      "",
+      "class ${1:EntityName}(BaseEntity):",
+      "\"\"\"${1:EntityName} entity.",
+      "${5:Entity class description}",
+      "\"\"\""
+    ]
   }
 }

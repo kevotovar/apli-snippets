@@ -3,6 +3,11 @@
   "displayName": "apli-snippets",
   "description": "The best snippets for Apli devs",
   "version": "0.0.1",
+  "publisher": "kevotovar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevotovar/apli-snippets"
+  },
   "engines": {
     "vscode": "^1.35.0"
   },

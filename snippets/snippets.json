@@ -1,0 +1,27 @@
+{
+  "Add new repository module": {
+    "prefix": "new_repository",
+    "body": [
+      "\"\"\" ${1:repository_name} repository module.",
+      "",
+      "${2:repository_description}",
+      "\"\"\"",
+      "",
+      "# Standard library",
+      "${3:standard_library_imports}",
+      "",
+      "# Models",
+      "${4:models_imports}",
+      "",
+      "# Entities",
+      "${5:entities_imports}",
+      "",
+      "",
+      "class ${1:repository_name}:",
+      "\"\"\"${1:repository_name} repository.",
+      "",
+      "${6:class_description}",
+      "\"\"\""
+    ]
+  }
+}

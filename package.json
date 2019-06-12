@@ -1,0 +1,20 @@
+{
+  "name": "apli-snippets",
+  "displayName": "apli-snippets",
+  "description": "The best snippets for Apli devs",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.35.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "python",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
